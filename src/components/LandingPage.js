@@ -1,24 +1,29 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
+import "../index.css";
+import logo from '../images/godogo-nose-blue.png';
 
 export const LandingPage = () => {
   return (
-    <div className="landing-page">
-      <div className="div">
-        <p className="text-wrapper">Is your dog scared of fireworks?</p>
-        <div className="overlap-group">
-          <p className="p">Go Dogo fireworks sound training</p>
-          <div className="rectangle" />
-          <div className="text-wrapper-2">See it in action</div>
+    <body className="container full-height-grow">
+      <header className="main-header">
+        <a href="/" className="brand-logo">
+        <img src={logo} alt="logo" height="130px"/>
+        </a>
+      </header>
+
+      <section className="home-main-section">
+        <div className="img-wrapper">
+          <div className="main-image" />
         </div>
-        <img
-          className="element-godogo-nose"
-          alt="Element godogo nose"
-          src="https://c.animaapp.com/HXTTUAgs/img/2021-godogo-nose-blue-1@2x.png"
-        />
-        <img className="image" alt="Image" src="https://c.animaapp.com/HXTTUAgs/img/image-1.png" />
-      </div>
+      <div className="call-to-action">
+      <h1 className="title">Is your dog scared of fireworks?</h1>
+      <span className="subtitle">Go Dogo fireworks sound training</span>
+      <a href="/see-it-in-action" className="btn">See it in action</a>
     </div>
+      </section>
+    </body>
+
   );
 };
 export default LandingPage;
