@@ -19,9 +19,14 @@ export const LandingPage = () => {
       <div className="call-to-action">
       <h1 className="title">Is your dog scared of fireworks?</h1>
       <span className="subtitle">Go Dogo fireworks sound training</span>
-      <a href="/see-it-in-action" className="btn">See it in action</a>
+      <a href="#playarea" className="btn">See it in action</a>
     </div>
       </section>
+
+      <section >
+        <div className="full-width-image"/>
+      </section>
+
     </body>
 
   );

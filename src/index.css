@@ -37,3 +37,9 @@
     justify-content: center;
   }
 }
+
+  .full-width-image {
+    background-image: url(images/playarea.png);
+    width: 100%;
+    height: auto;
+  }
