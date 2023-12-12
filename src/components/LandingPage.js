@@ -2,6 +2,8 @@ import React from "react";
 import "../style.css";
 import "../index.css";
 import logo from '../images/godogo-nose-blue.png';
+import { Link } from 'react-router-dom';
+
 
 export const LandingPage = () => {
   return (
@@ -19,7 +21,7 @@ export const LandingPage = () => {
       <div className="call-to-action">
       <h1 className="title">Is your dog scared of fireworks?</h1>
       <span className="subtitle">Go Dogo fireworks sound training</span>
-      <a href="#playarea" className="btn">See it in action</a>
+      <Link to="/playarea1" className="btn">See it in action</Link>
     </div>
       </section>
 
