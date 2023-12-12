@@ -1,6 +1,6 @@
 import React from "react";
-import "../style.css";
 import "../index.css";
+import "../style.css";
 import logo from '../images/godogo-nose-blue.png';
 import { Link } from 'react-router-dom';
 
@@ -23,10 +23,6 @@ export const LandingPage = () => {
       <span className="subtitle">Go Dogo fireworks sound training</span>
       <Link to="/playarea1" className="btn">See it in action</Link>
     </div>
-      </section>
-
-      <section >
-        <div className="full-width-image"/>
       </section>
 
     </body>

@@ -1,111 +1,53 @@
-/* from tutorial */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
 
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.2rem;
-  color: #000000;
-  min-height: 100vh;
-}
-
-.full-height-grow {
+/* New styles for the smartphone overlay */
+.smartphone-app-overlay {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 200px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  background-color: #f0f0f0; /* A placeholder if you don't have an image ready */
   display: flex;
   flex-direction: column;
-}
-
-.brand-logo {
-  display: flex;
+  justify-content: center;
   align-items: center;
-  font-size: 1.25em;
-  color: inherit;
-  text-decoration: none;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px; /* Optional: for rounded corners */
+  z-index: 10; /* Ensure it's above other elements, adjust if necessary */
 }
 
-.brand-logo-name {
-  margin-left: 1rem;
-}
-
-.main-nav ul, .footer-nav ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav a, .footer-nav a {
-  color: inherit;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-.main-nav a:hover, .footer-nav a:hover  {
-  color: #adadad;
-}
-
-.main-header, .main-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-header {
-  height: 140px;
-}
-
-.main-footer {
-  height: 70px;
-  background-color: #202027;
-  font-weight: bold;
-}
-
-.main-footer .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
-  flex-grow: 1;
-}
-
-.title {
-  font-weight: 500;
-  font-size: 3em;
-  margin-bottom: 1rem;
-  margin-top: 0;
-}
-
-.subtitle {
-  font-weight: 500;
-  font-size: 1.2em;
-  margin-bottom: 2rem;
-}
-
-.btn {
+.app-button {
+  font-family: Montserrat, sans-serif;
+  font-size: .9rem;
   color: white;
-  background-color: #234058;
+  background-color: #234058; /* Keeping button styles consistent with .btn */
   padding: .75rem 1.5rem;
   border-radius: .5rem;
   text-decoration: none;
-  font-size: .9rem;
   outline: none;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-top: 10px; /* Space out buttons */
 }
 
-.btn:hover {
-  background-color: #30597b;
+.app-button:hover {
+  background-color: #30597b; /* Keeping hover effect consistent with .btn:hover */
 }
 
-.btn:focus {
-  background-color: #2796ff;
+.app-button:focus {
+  background-color: #2796ff; /* Keeping focus effect consistent with .btn:focus */
+}
+
+/* Livingroom scene background */
+
+.living-room-scene {
+  background-image: url(images/playarea.png);
+  background-size: cover; /* Cover ensures the background covers the area */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  width: 100vw; /* Set width to 100% of the parent element */
+  height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
 }

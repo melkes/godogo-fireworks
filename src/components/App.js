@@ -7,9 +7,9 @@ import Sitting from "./Sitting";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} className="container"/>
           <Route path="/playarea1" element={<LivingRoomScene />} />
 
         </Routes>
