@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} className="container"/>
           <Route path="/playarea1" element={<LivingRoomScene />} />
-
+          <Route path="/playarea2" element={<Sitting />} />
         </Routes>
       </div>
     </Router>

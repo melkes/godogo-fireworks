@@ -2,11 +2,12 @@
 
 /* New styles for the smartphone overlay */
 .smartphone-app-overlay {
+  background-image: url(images/phone-screen.png);
   position: absolute;
   bottom: 20px;
   right: 20px;
-  width: 200px; /* Adjust as needed */
-  height: 400px; /* Adjust as needed */
+  width: 234px; /* Adjust as needed */
+  height: 475px; /* Adjust as needed */
   background-color: #f0f0f0; /* A placeholder if you don't have an image ready */
   display: flex;
   flex-direction: column;
@@ -50,4 +51,14 @@
   background-repeat: no-repeat; /* Prevent the background from repeating */
   width: 100vw; /* Set width to 100% of the parent element */
   height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
+}
+
+.sitting {
+  background-image: url(images/play-area-02sit.jpg);
+  background-size: cover; /* Cover ensures the background covers the area */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  width: 100vw; /* Set width to 100% of the parent element */
+  height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
+
 }
