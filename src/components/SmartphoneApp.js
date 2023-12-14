@@ -7,7 +7,11 @@ const SmartphoneApp = ({ onSitCommand, onFireworksCommand }) => {
     <div className="smartphone-app-overlay">
   <Link to="/playarea2" className="app-button" >
     Sit Command
-  </Link>      <button className="app-button" onClick={onFireworksCommand}>Fireworks Command</button>
+  </Link>   
+  <Link to="/playarea3" className="app-button" >Fireworks Command
+</Link>
+  <Link to="/playarea4" className="app-button" >Give Treat
+  </Link>
     </div>
   );
 };

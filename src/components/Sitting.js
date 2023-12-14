@@ -2,10 +2,13 @@ import React from "react";
 import "../index.css";
 import "../style.css";
 import SmartphoneApp from "./SmartphoneApp";
-
+import { Link } from 'react-router-dom';
 function Sitting() {
   return (
     <div className="sitting">
+      <div className="call-to-action">
+      <Link to="/playarea1" className="btn">Start over</Link>
+    </div>
       {/* Background image */}
 
       {/* Dog image with initial position */}

@@ -6,7 +6,7 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-  width: 234px; /* Adjust as needed */
+  width: 230px; /* Adjust as needed */
   height: 475px; /* Adjust as needed */
   background-color: #f0f0f0; /* A placeholder if you don't have an image ready */
   display: flex;
@@ -60,5 +60,22 @@
   background-repeat: no-repeat; /* Prevent the background from repeating */
   width: 100vw; /* Set width to 100% of the parent element */
   height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
+}
 
+.sitting-fireworks {
+  background-image: url(images/sit-fireworks.png);
+  background-size: cover; /* Cover ensures the background covers the area */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  width: 100vw; /* Set width to 100% of the parent element */
+  height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
+}
+
+.get-treat {
+  background-image: url(images/get-treat.png);
+  background-size: cover; /* Cover ensures the background covers the area */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  width: 100vw; /* Set width to 100% of the parent element */
+  height: 100vh; /* Set a height, vh units will make it responsive to the viewport height */
 }
