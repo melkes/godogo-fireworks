@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/godogo-fireworks/static/css/main.78b27f50.css",
+    "main.js": "/godogo-fireworks/static/js/main.39931391.js",
+    "static/js/787.5f349fef.chunk.js": "/godogo-fireworks/static/js/787.5f349fef.chunk.js",
+    "static/media/playarea.png": "/godogo-fireworks/static/media/playarea.9be51e90823575a5fb7f.png",
+    "static/media/aiDogImage.png": "/godogo-fireworks/static/media/aiDogImage.974e2b19178423397477.png",
+    "static/media/play-area-02sit.jpg": "/godogo-fireworks/static/media/play-area-02sit.e569ccf5072d7233ff24.jpg",
+    "static/media/phone-screen.png": "/godogo-fireworks/static/media/phone-screen.d284643b63e7540020ee.png",
+    "static/media/godogo-nose-blue.png": "/godogo-fireworks/static/media/godogo-nose-blue.73a303659c221b2648f6.png",
+    "index.html": "/godogo-fireworks/index.html",
+    "main.78b27f50.css.map": "/godogo-fireworks/static/css/main.78b27f50.css.map",
+    "main.39931391.js.map": "/godogo-fireworks/static/js/main.39931391.js.map",
+    "787.5f349fef.chunk.js.map": "/godogo-fireworks/static/js/787.5f349fef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b27f50.css",
+    "static/js/main.39931391.js"
+  ]
+}
