@@ -54,7 +54,7 @@
 }
 
 .sitting {
-  background-image: url(images/play-area-02sit.jpg);
+  background-image: url(images/play-area-02sit.png);
   background-size: cover; /* Cover ensures the background covers the area */
   background-position: center; /* Center the background */
   background-repeat: no-repeat; /* Prevent the background from repeating */
