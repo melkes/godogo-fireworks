@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/godogo-fireworks/static/css/main.67f2ef76.css",
+    "main.css": "/godogo-fireworks/static/css/main.05c80f8b.css",
     "main.js": "/godogo-fireworks/static/js/main.b690946e.js",
     "static/js/787.5f349fef.chunk.js": "/godogo-fireworks/static/js/787.5f349fef.chunk.js",
-    "static/media/get-treat.png": "/godogo-fireworks/static/media/get-treat.eeeeddf37692e60e40ee.png",
-    "static/media/sit-fireworks.png": "/godogo-fireworks/static/media/sit-fireworks.1d5c45172ceb02a1e3ba.png",
-    "static/media/playarea.png": "/godogo-fireworks/static/media/playarea.9be51e90823575a5fb7f.png",
+    "static/media/sit-fireworks.png": "/godogo-fireworks/static/media/sit-fireworks.359dd0d8d31c38817578.png",
+    "static/media/get-treat.png": "/godogo-fireworks/static/media/get-treat.2d8a13f39ccf7e253e71.png",
+    "static/media/playarea.png": "/godogo-fireworks/static/media/playarea.643f26e5e58bca1d7da7.png",
     "static/media/aiDogImage.png": "/godogo-fireworks/static/media/aiDogImage.974e2b19178423397477.png",
     "static/media/play-area-02sit.jpg": "/godogo-fireworks/static/media/play-area-02sit.e569ccf5072d7233ff24.jpg",
     "static/media/phone-screen.png": "/godogo-fireworks/static/media/phone-screen.04a4b9b983dc5cb390a4.png",
     "static/media/godogo-nose-blue.png": "/godogo-fireworks/static/media/godogo-nose-blue.73a303659c221b2648f6.png",
     "index.html": "/godogo-fireworks/index.html",
-    "main.67f2ef76.css.map": "/godogo-fireworks/static/css/main.67f2ef76.css.map",
+    "main.05c80f8b.css.map": "/godogo-fireworks/static/css/main.05c80f8b.css.map",
     "main.b690946e.js.map": "/godogo-fireworks/static/js/main.b690946e.js.map",
     "787.5f349fef.chunk.js.map": "/godogo-fireworks/static/js/787.5f349fef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67f2ef76.css",
+    "static/css/main.05c80f8b.css",
     "static/js/main.b690946e.js"
   ]
 }
