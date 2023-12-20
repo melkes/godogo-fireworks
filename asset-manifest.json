@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/godogo-fireworks/static/css/main.67f2ef76.css",
-    "main.js": "/godogo-fireworks/static/js/main.429ce91a.js",
+    "main.js": "/godogo-fireworks/static/js/main.b690946e.js",
     "static/js/787.5f349fef.chunk.js": "/godogo-fireworks/static/js/787.5f349fef.chunk.js",
     "static/media/get-treat.png": "/godogo-fireworks/static/media/get-treat.eeeeddf37692e60e40ee.png",
     "static/media/sit-fireworks.png": "/godogo-fireworks/static/media/sit-fireworks.1d5c45172ceb02a1e3ba.png",
@@ -12,11 +12,11 @@
     "static/media/godogo-nose-blue.png": "/godogo-fireworks/static/media/godogo-nose-blue.73a303659c221b2648f6.png",
     "index.html": "/godogo-fireworks/index.html",
     "main.67f2ef76.css.map": "/godogo-fireworks/static/css/main.67f2ef76.css.map",
-    "main.429ce91a.js.map": "/godogo-fireworks/static/js/main.429ce91a.js.map",
+    "main.b690946e.js.map": "/godogo-fireworks/static/js/main.b690946e.js.map",
     "787.5f349fef.chunk.js.map": "/godogo-fireworks/static/js/787.5f349fef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67f2ef76.css",
-    "static/js/main.429ce91a.js"
+    "static/js/main.b690946e.js"
   ]
 }
